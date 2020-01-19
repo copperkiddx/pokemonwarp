@@ -127,6 +127,7 @@ MainMenu:
 InitOptions:
 	ld a, 1 ; fast text speed
     ld [wLetterPrintingDelayFlags], a
+	set 7, a ; battle animation off
     ld [wOptions], a  
     ret
 
