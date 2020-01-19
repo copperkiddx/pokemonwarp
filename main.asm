@@ -86,6 +86,8 @@ INCLUDE "engine/remove_pokemon.asm"
 
 INCLUDE "engine/display_pokedex.asm"
 
+INCLUDE "engine/overworld/bike_shortcut.asm"
+
 
 SECTION "bank3", ROMX
 
