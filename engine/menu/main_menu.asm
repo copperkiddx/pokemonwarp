@@ -125,11 +125,10 @@ MainMenu:
 	jp SpecialEnterMap
 
 InitOptions:
-	ld a, 1 ; no delay
-	ld [wLetterPrintingDelayFlags], a
-	ld a, 3 ; medium speed
-	ld [wOptions], a
-	ret
+	ld a, 1 ; fast text speed
+    ld [wLetterPrintingDelayFlags], a
+    ld [wOptions], a  
+    ret
 
 LinkMenu:
 	xor a
