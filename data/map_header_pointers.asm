@@ -248,3 +248,4 @@ MapHeaderPointers::
 	dw LoreleisRoom_h
 	dw BrunosRoom_h
 	dw AgathasRoom_h ;247
+	dw WarpRoom_h

@@ -150,4 +150,6 @@ PredefPointers::
 	add_predef DrawHP
 	add_predef DrawHP2
 	add_predef DisplayElevatorFloorMenu
+	add_predef DisplayElevatorFloorMenu2
+	add_predef DisplayElevatorFloorMenu3
 	add_predef OaksAideScript

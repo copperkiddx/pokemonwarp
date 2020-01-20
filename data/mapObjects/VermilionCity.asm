@@ -1,17 +1,25 @@
 VermilionCity_Object:
 	db $43 ; border block
 
-	db 9 ; warps
+	db 17 ; warps
 	warp 11, 3, 0, VERMILION_POKECENTER
-	warp 9, 13, 0, POKEMON_FAN_CLUB
+	warp  9, 13, 0, POKEMON_FAN_CLUB
 	warp 23, 13, 0, VERMILION_MART
 	warp 12, 19, 0, VERMILION_GYM
 	warp 23, 19, 0, VERMILION_PIDGEY_HOUSE
 	warp 18, 31, 0, VERMILION_DOCK
 	warp 19, 31, 0, VERMILION_DOCK
 	warp 15, 13, 0, VERMILION_TRADE_HOUSE
-	warp 7, 3, 0, VERMILION_OLD_ROD_HOUSE
-
+	warp  7,  3, 0, VERMILION_OLD_ROD_HOUSE
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp 10,  0, 0, WARP_ROOM ; dummy warp
+	warp 11,  0, 0, WARP_ROOM ; dummy warp
+	warp 12,  0, 0, WARP_ROOM ; dummy warp	
+	warp 33, 13, 0, WARP_ROOM
+	
 	db 7 ; signs
 	sign 27, 3, 7 ; VermilionCityText7
 	sign 37, 13, 8 ; VermilionCityText8
@@ -30,12 +38,20 @@ VermilionCity_Object:
 	object SPRITE_SAILOR, 25, 27, WALK, 2, 6 ; person
 
 	; warp-to
-	warp_to 11, 3, VERMILION_CITY_WIDTH ; VERMILION_POKECENTER
-	warp_to 9, 13, VERMILION_CITY_WIDTH ; POKEMON_FAN_CLUB
+	warp_to 11,  3, VERMILION_CITY_WIDTH ; VERMILION_POKECENTER
+	warp_to  9, 13, VERMILION_CITY_WIDTH ; POKEMON_FAN_CLUB
 	warp_to 23, 13, VERMILION_CITY_WIDTH ; VERMILION_MART
 	warp_to 12, 19, VERMILION_CITY_WIDTH ; VERMILION_GYM
 	warp_to 23, 19, VERMILION_CITY_WIDTH ; VERMILION_PIDGEY_HOUSE
 	warp_to 18, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
 	warp_to 19, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
 	warp_to 15, 13, VERMILION_CITY_WIDTH ; VERMILION_TRADE_HOUSE
-	warp_to 7, 3, VERMILION_CITY_WIDTH ; VERMILION_OLD_ROD_HOUSE
+	warp_to  7,  3, VERMILION_CITY_WIDTH ; VERMILION_OLD_ROD_HOUSE
+	warp_to  6,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to  7,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to  8,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to  9,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to 10,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to 11,  0, VERMILION_CITY_WIDTH ; dummy warp
+	warp_to 12,  0, VERMILION_CITY_WIDTH ; dummy warp	
+	warp_to 33, 13, VERMILION_CITY_WIDTH ; WARP_ROOM

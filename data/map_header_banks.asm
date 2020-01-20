@@ -248,3 +248,4 @@ MapHeaderBanks:
 	db BANK(LoreleisRoom_h)
 	db BANK(BrunosRoom_h)
 	db BANK(AgathasRoom_h)
+	db BANK(WarpRoom_h)

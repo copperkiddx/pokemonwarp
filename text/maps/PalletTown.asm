@@ -35,21 +35,27 @@ _PalletTownText3::
 	cont "data via PC!"
 	done
 
-_PalletTownText4::
+_WarpRoomGuardText::
+	text "COPPERKIDD: Stop!"
+	line "You need to have"
+	cont "a #MON first!"
+	done
+	
+_PalletTownText5::
 	text "OAK #MON"
 	line "RESEARCH LAB"
 	done
 
-_PalletTownText5::
+_PalletTownText6::
 	text "PALLET TOWN"
 	line "Shades of your"
 	cont "journey await!"
 	done
 
-_PalletTownText6::
+_PalletTownText7::
 	text "<PLAYER>'s house "
 	done
 
-_PalletTownText7::
+_PalletTownText8::
 	text "<RIVAL>'s house "
 	done

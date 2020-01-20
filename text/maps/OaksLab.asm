@@ -271,8 +271,10 @@ _OaksLabRivalToughenUpText::
 	cont "#MON fight to"
 	cont "toughen it up!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "I'm off to try"
+	line "COPPERKIDD'S new"
+	cont "WARP ROOM, baby!"	
+	cont "Smell you later!"
 	done
 
 _OaksLabText21::

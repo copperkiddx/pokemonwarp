@@ -152,10 +152,11 @@ PalletTown_TextPointers:
 	dw PalletTownText1
 	dw PalletTownText2
 	dw PalletTownText3
-	dw PalletTownText4
+	dw WarpRoomGuardText
 	dw PalletTownText5
 	dw PalletTownText6
 	dw PalletTownText7
+	dw PalletTownText8
 
 PalletTownText1:
 	TX_ASM
@@ -197,18 +198,22 @@ PalletTownText3: ; fat man
 	TX_FAR _PalletTownText3
 	db "@"
 
-PalletTownText4: ; sign by lab
-	TX_FAR _PalletTownText4
+WarpRoomGuardText: ; Pallet Town Warp Room Guard text
+	TX_FAR _WarpRoomGuardText
 	db "@"
-
-PalletTownText5: ; sign by fence
+	
+PalletTownText5: ; sign by lab
 	TX_FAR _PalletTownText5
 	db "@"
 
-PalletTownText6: ; sign by Red’s house
+PalletTownText6: ; sign by fence
 	TX_FAR _PalletTownText6
 	db "@"
 
-PalletTownText7: ; sign by Blue’s house
+PalletTownText7: ; sign by Red’s house
 	TX_FAR _PalletTownText7
+	db "@"
+
+PalletTownText8: ; sign by Blue’s house
+	TX_FAR _PalletTownText8
 	db "@"

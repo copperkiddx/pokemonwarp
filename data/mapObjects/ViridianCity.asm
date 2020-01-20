@@ -1,12 +1,24 @@
 ViridianCity_Object:
 	db $f ; border block
 
-	db 5 ; warps
+	db 17 ; warps
 	warp 23, 25, 0, VIRIDIAN_POKECENTER
 	warp 29, 19, 0, VIRIDIAN_MART
 	warp 21, 15, 0, VIRIDIAN_SCHOOL_HOUSE
-	warp 21, 9, 0, VIRIDIAN_NICKNAME_HOUSE
-	warp 32, 7, 0, VIRIDIAN_GYM
+	warp 21,  9, 0, VIRIDIAN_NICKNAME_HOUSE
+	warp 32,  7, 0, VIRIDIAN_GYM
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp 10,  0, 0, WARP_ROOM ; dummy warp	
+	warp 35, 25, 0, WARP_ROOM
 
 	db 6 ; signs
 	sign 17, 17, 8 ; ViridianCityText8
@@ -29,5 +41,17 @@ ViridianCity_Object:
 	warp_to 23, 25, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_POKECENTER
 	warp_to 29, 19, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_MART
 	warp_to 21, 15, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_SCHOOL_HOUSE
-	warp_to 21, 9, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_NICKNAME_HOUSE
-	warp_to 32, 7, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_GYM
+	warp_to 21,  9, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_NICKNAME_HOUSE
+	warp_to 32,  7, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_GYM
+	warp_to  0,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  1,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  2,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  3,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  4,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  5,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  6,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  7,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  8,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to  9,  0, VIRIDIAN_CITY_WIDTH ; dummy warp
+	warp_to 10,  0, VIRIDIAN_CITY_WIDTH ; dummy warp	
+	warp_to 35, 25, VIRIDIAN_CITY_WIDTH ; WARP_ROOM

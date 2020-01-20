@@ -69,3 +69,11 @@ ShakeElevatorRedrawRow:
 	pop af
 	ld [hl], a
 	jp Delay3
+
+TeleportFromWarpRoom:
+	call GBFadeOutToWhite
+	call ReloadMapData
+	ld c, BANK(SFX_Teleport_Exit1_1)
+	ld a, SFX_TELEPORT_EXIT_1
+	call PlayMusic
+	call GBFadeInFromWhite

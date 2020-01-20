@@ -1,18 +1,25 @@
 CeruleanCity_Object:
 	db $f ; border block
 
-	db 10 ; warps
+	db 17 ; warps
 	warp 27, 11, 0, CERULEAN_TRASHED_HOUSE
 	warp 13, 15, 0, CERULEAN_TRADE_HOUSE
 	warp 19, 17, 0, CERULEAN_POKECENTER
 	warp 30, 19, 0, CERULEAN_GYM
 	warp 13, 25, 0, BIKE_SHOP
 	warp 25, 25, 0, CERULEAN_MART
-	warp 4, 11, 0, CERULEAN_CAVE_1F
-	warp 27, 9, 2, CERULEAN_TRASHED_HOUSE
-	warp 9, 11, 1, CERULEAN_BADGE_HOUSE
-	warp 9, 9, 0, CERULEAN_BADGE_HOUSE
-
+	warp  4, 11, 0, CERULEAN_CAVE_1F
+	warp 27,  9, 2, CERULEAN_TRASHED_HOUSE
+	warp  9, 11, 1, CERULEAN_BADGE_HOUSE
+	warp  9,  9, 0, CERULEAN_BADGE_HOUSE
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp 37, 15, 0, WARP_ROOM
+	
 	db 6 ; signs
 	sign 23, 19, 12 ; CeruleanCityText12
 	sign 17, 29, 13 ; CeruleanCityText13
@@ -41,7 +48,14 @@ CeruleanCity_Object:
 	warp_to 30, 19, CERULEAN_CITY_WIDTH ; CERULEAN_GYM
 	warp_to 13, 25, CERULEAN_CITY_WIDTH ; BIKE_SHOP
 	warp_to 25, 25, CERULEAN_CITY_WIDTH ; CERULEAN_MART
-	warp_to 4, 11, CERULEAN_CITY_WIDTH ; CERULEAN_CAVE_1F
-	warp_to 27, 9, CERULEAN_CITY_WIDTH ; CERULEAN_TRASHED_HOUSE
-	warp_to 9, 11, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
-	warp_to 9, 9, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
+	warp_to  4, 11, CERULEAN_CITY_WIDTH ; CERULEAN_CAVE_1F
+	warp_to 27,  9, CERULEAN_CITY_WIDTH ; CERULEAN_TRASHED_HOUSE
+	warp_to  9, 11, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
+	warp_to  9,  9, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
+	warp_to  0,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to  1,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to  2,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to  3,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to  4,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to  5,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 37, 15, CERULEAN_CITY_WIDTH ; WARP_ROOM

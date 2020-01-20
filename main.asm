@@ -517,6 +517,11 @@ INCLUDE "scripts/BillsHouse.asm"
 INCLUDE "data/mapObjects/BillsHouse.asm"
 BillsHouse_Blocks: INCBIN "maps/BillsHouse.blk"
 
+INCLUDE "data/mapHeaders/WarpRoom.asm"
+INCLUDE "scripts/WarpRoom.asm"
+INCLUDE "data/mapObjects/WarpRoom.asm"
+WarpRoom_Blocks: INCBIN "maps/WarpRoom.blk"
+
 INCLUDE "engine/menu/oaks_pc.asm"
 
 INCLUDE "engine/hidden_object_functions7.asm"

@@ -332,6 +332,9 @@ OaksLabScript9:
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_GOT_STARTER
+	ld a, HS_WARP_ROOM_GUARD ; Hide Warp Room guard
+	ld [wMissableObjectIndex], a ;
+	predef HideObject ;
 	xor a
 	ld [wJoyIgnore], a
 
