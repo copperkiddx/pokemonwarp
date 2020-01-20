@@ -315,6 +315,16 @@ BillsPCRelease:
 	call PlayCry
 	ld hl, MonWasReleasedText
 	call PrintText
+	lb bc, POKE_BALL, 1
+	call GiveItem
+	jr nc, .MonWasReleasedBagFull
+	ld hl, MonWasReleasedGotPokeballText
+	jr .end_it
+.MonWasReleasedBagFull
+	ld hl, YouHaveTooMuchStuff
+	jr .end_it
+.end_it
+	call PrintText
 	jp BillsPCMenu
 
 BillsPCChangeBox:
@@ -505,6 +515,15 @@ MonWasReleasedText:
 	TX_FAR _MonWasReleasedText
 	db "@"
 
+MonWasReleasedGotPokeballText:
+	TX_FAR _MonWasReleasedGotPokeballText
+	TX_SFX_ITEM_1
+	db "@"
+
+YouHaveTooMuchStuff:
+	TX_FAR _YouHaveTooMuchStuff
+	db "@"
+	
 CableClubLeftGameboy::
 	ld a, [hSerialConnectionStatus]
 	cp USING_EXTERNAL_CLOCK

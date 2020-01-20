@@ -1841,7 +1841,17 @@ _MonWasReleasedText::
 	TX_RAM wcf4b
 	text " was"
 	line "released outside."
-	cont "Bye @"
+	prompt
+	
+_MonWasReleasedGotPokeballText::
+	text "Here, have your"
+	line "# BALL back!"
+	done
+	
+_YouHaveTooMuchStuff::
+	text "Darn, no room for"
+	line "a free # BALL!"
+	prompt	
 
 _CF4BExclamationText::
 	TX_RAM wcf4b
