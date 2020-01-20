@@ -11,7 +11,7 @@
 	git clone https://github.com/copperkiddretro/pokemonwarp
 	cd pokemonwarp
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **warpred.gb** and **warpblue.gb**:
 
 	make
 
@@ -33,7 +33,7 @@ Then in **Terminal**, run:
 	git clone https://github.com/copperkiddretro/pokemonwarp
 	cd pokemonwarp
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **warpred.gb** and **warpblue.gb**:
 
 	make
 
@@ -55,6 +55,6 @@ In the **Cygwin terminal**, enter these commands:
 	git clone https://github.com/copperkiddretro/pokemonwarp
 	cd pokemonwarp
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **warpred.gb** and **warpblue.gb**:
 
 	make
