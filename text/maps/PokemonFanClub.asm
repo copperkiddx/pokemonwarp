@@ -112,12 +112,14 @@ FanClubNoStoryText::
 
 FanClubChairFinalText::
 	text "Hello, <PLAYER>!"
+	line "What's that, now?"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
-
-	para "No? Too bad!"
+	para "COPPERKIDD gave"
+	line "you his bike?"
+	cont "Awesome! You don't"
+	cont "need to hear me"
+	cont "ramble on then..."
+	cont "have fun, dude!"	
 	done
 
 FanClubBagFullText::

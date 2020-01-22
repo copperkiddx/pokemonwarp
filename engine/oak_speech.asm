@@ -48,6 +48,9 @@ OakSpeech:
 	ld a, 1
 	ld [wItemQuantity], a
 	call AddItemToInventory  ; give one potion
+	lb bc, BICYCLE, 1
+	call GiveItem
+	SetEvent EVENT_GOT_BICYCLE
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call SpecialWarpIn
