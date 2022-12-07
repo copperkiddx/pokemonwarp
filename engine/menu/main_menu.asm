@@ -387,7 +387,7 @@ PrintSaveScreenText:
 	call PrintPlayTime
 	ld a, $1
 	ld [H_AUTOBGTRANSFERENABLED], a
-	ld c, 30
+	ld c, 5
 	jp DelayFrames
 
 PrintNumBadges:
